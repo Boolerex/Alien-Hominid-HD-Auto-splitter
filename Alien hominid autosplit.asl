@@ -19,7 +19,7 @@ init
     vars.maxhpcount = 0;
 }
 
-update { print(vars.maxhpcount.ToString()); }
+// update { print(vars.maxhpcount.ToString()); }
 
 start
 { // If the level number is not 4-0, then we are outside the main menu and in a level
